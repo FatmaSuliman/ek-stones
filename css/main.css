@@ -242,6 +242,7 @@ body {
 }
 .portfolio .portfolio-content .card img {
   max-width: 100%;
+  height: 60vh;
 }
 .portfolio .portfolio-content .card .info {
   padding: 20px;
