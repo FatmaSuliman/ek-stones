@@ -100,11 +100,10 @@ body {
 }
 .landing .intro-text {
   text-align: center;
-
   max-width: 100%;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 62%;
   transform: translate(-50%, -50%);
 }
 .landing .intro-text h1 {
@@ -120,8 +119,7 @@ body {
 /* end landing */
 /* start about */
 .about {
-  padding-top: var(--section-padding);
-
+  padding-top: 18px;
 }
 .about .about-content {
   margin-top: 100px;
@@ -263,22 +261,13 @@ body {
   padding-bottom: var(--section-padding);
   background-color: var(--section-background);
 }
-.contact .info {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
-  text-align: center;
-}
 
 .contact {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   background-color: var(--section-background);
 }
-.contact .info {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
-  text-align: center;
-}
+
 .contact .info .label {
   font-size: 35px;
   font-weight: 800;
@@ -468,4 +457,20 @@ a{
 button.spcial {
   line-height: 0px;
   border-color: #fb2e00;
+}
+.info {
+  text-align: center;
+}
+.call h2 {
+  padding: 21px;
+}
+.call {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+i.fa.fa-phone {
+  
+  padding: 3px 1px 10px 8px;
 }
