@@ -23,17 +23,22 @@ body {
 /* start component */
 .special-heading {
   color: black;
-  font-size: 80px;
+  font-size: 64px;
   text-align: center;
   font-weight: 500;
   letter-spacing: -3px;
   margin: 0;
+  padding-top: 100px;
 }
 .special-heading + p {
   margin: -30px 0 0;
   font-size: 20px;
   text-align: center;
   color: #797979;
+}
+p.copyright {
+  text-align: center;
+  padding-top: 30px;
 }
 
 /* end component */
@@ -85,7 +90,7 @@ body {
 
 /* start landing */
 .landing {
-  background-image: url(../images/04.jpg);
+  background-image: url(../images/00.jpeg);
   background-size: cover;
   /* header space - 100 vh */
   height: 100vh;
@@ -95,15 +100,15 @@ body {
   background-color: white;
 }
 .ek {
-  color: coral;
-  font-size: 65px;
+  color: #282422;
+  font-size: 80px;
 }
 .landing .intro-text {
   text-align: center;
   max-width: 100%;
   position: absolute;
   left: 50%;
-  top: 62%;
+  top: 45%;
   transform: translate(-50%, -50%);
 }
 .landing .intro-text h1 {
@@ -113,8 +118,9 @@ body {
   color: var(--main-color);
 }
 .landing .intro-text p {
-  font-size: 19px;
-  font-weight: bold;
+  font-size: 23px;
+ 
+    color: black;
 }
 /* end landing */
 /* start about */
@@ -285,8 +291,8 @@ body {
 }
 .contact .info .social {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+ 
+  margin-top: 60px;
   font-size: 16px;
 }
 .contact .info .social i {
@@ -300,6 +306,19 @@ p {
 
 /* End Contact */
 /* Start Footer */
+::before {
+  margin-right: 3px;
+}
+ul.space {
+  display: flex;
+  justify-content: start;
+}
+li.pb {
+  margin: 4px;
+}
+h6 {
+  padding-top: 12px;
+}
 .footer {
   background-color: var(--secondary-color);
   color: white;
@@ -452,7 +471,7 @@ button{
 }
 a{
  
-   color:#fb2e00 ;
+ 
     text-decoration: none;
 }
 button.spcial {
@@ -466,12 +485,19 @@ button.spcial {
   padding: 21px;
 }
 .call {
-  display: flex;
-  justify-content: center;
-  padding-top: 24px;
+ padding: 9px;
 }
 
 i.fa.fa-phone {
   
   padding: 3px 1px 10px 8px;
+}
+i.fab.fa-instagram {
+  color: black;
+}
+i.fab.fa-facebook {
+  color: black;
+}
+i.fab.fa-pinterest {
+  color: black;
 }
