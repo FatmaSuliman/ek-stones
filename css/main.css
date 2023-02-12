@@ -291,7 +291,7 @@ p.copyright {
 .contact .info .social {
   display: flex;
  
-  margin-top: 60px;
+  margin-top: 28px;
   font-size: 16px;
 }
 .contact .info .social i {
@@ -312,9 +312,10 @@ p {
 ul.space {
   display: flex;
   justify-content: start;
+  padding-top: 23px;
 }
 li.pb {
-  margin: 4px;
+  margin: 12px;
 }
 h6 {
   padding-top: 12px;
@@ -485,7 +486,8 @@ button.spcial {
   padding: 21px;
 }
 .call {
- padding: 9px;
+  padding-top: 18px;
+  padding-left: 9px;
 }
 
 i.fa.fa-phone {
