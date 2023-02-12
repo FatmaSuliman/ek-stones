@@ -56,6 +56,7 @@ p.copyright {
   justify-content: space-between;
   text-align: center;
 }
+
 /* .header {
   display: flex;
   justify-content: space-between;
@@ -128,7 +129,7 @@ p.copyright {
   padding-top: 18px;
 }
 .about .about-content {
-  margin-top: 100px;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -227,9 +228,7 @@ p.copyright {
   top: -50px;
   z-index: -1;
 }
-.text{
-  padding: 43px;
-}
+
 /* start portfolio */
 .portfolio {
   padding-top: var(--section-padding);
@@ -301,7 +300,8 @@ p.copyright {
 }
 p {
   margin-top: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
 }
 
 /* End Contact */
